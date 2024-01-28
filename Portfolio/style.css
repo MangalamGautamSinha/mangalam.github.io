@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Neutral background color */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto; /* Enable vertical scroll if needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; /* Larger font size */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.content {
+    margin-left: 170px; /* Adjusted for the navigation menu width */
+}
+
+header {
+    padding-top: 50px; /* Adjusted for the profile photo */
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Rounded profile photo */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px; /* Reduced height */
+    width: 100%; /* Full width of the screen */
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+/* Example CSS code to change link color on hover */
+
+a {
+    color: #333; /* Default link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Link color on hover */
+}
